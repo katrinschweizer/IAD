@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style_index.css">
+    <title>Plakat</title>
+</head>
+<style>
+
+    .box {
+            display: flex;
+        }
+
+       .box div{
+            /*border:1px dotted red;*/
+            flex-basis:100px;
+        }
+        .box div.grow{
+            flex-grow:1;
+            /*border:3px dotted rgb(0, 255, 157);*/
+            margin-right: 20px;
+        }
+        .box div.grow2{
+            flex-grow:0.5;
+            /*border:3px dotted rgb(238, 255, 0);*/
+            justify-content:flex-end;
+
+        }
+
+        .box div img{
+            width:100%;
+            /*display: block;
+            /*margin-bottom: 10px;*/
+
+        }
+        .exp{
+            /*border:3px dotted blue;*/
+            width:90vw;
+            margin: 40px;
+        }
+
+</style>
+
+
+<body>
+    <ul class="nav">
+       <li>
+            <a href="../index.html">Back</a>
+        </li>
+    </ul>
+
+    <div class="exp">
+
+        <div class="box mainrow">
+            <div class="grow"><img src="Plakat/Plakat_original.jpg" alt="original"/></div>
+            <div class="grow2"><img src="Plakat/Plakat_querjpg2.jpg" alt="quer1"/>
+                <img src="Plakat/Plakat_querjpg3.jpg" alt="quer2"/>
+                <img src="Plakat/Plakat_querjpg4.jpg" alt="quer3"/></div>
+
+        </div>
+        
+           
+        </div>
+</body>
+
+</html>
